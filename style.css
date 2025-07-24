@@ -1,0 +1,599 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+#logo{
+    height: 45px;
+    width: 45px;
+
+
+}
+
+
+
+
+@media (max-width: 768px) {
+  .nav01LastPart {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+  }
+}
+
+/* @media (max-width: 768px) {
+  .nav01LastPart {
+    display: none !important;
+  }
+} */
+/* @media (max-width: 1300px) {
+    #logo {
+      background-color: lightblue;
+      background-image: url("./Behance-Logo.png");
+    }
+  } */
+
+
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* Align properly */
+}
+
+
+@media (max-width: 768px) {
+  .searchBtn {
+    display: none;
+  }
+}
+
+#nav-logo02{
+
+  height: 45px;
+    width: 45px;
+
+}
+
+button.navBtn01 {
+  color: blue;
+  font-weight: bold;
+  border-radius: 30px ;
+  background-color: #E0EAFF;
+}
+button.navBtn01:hover{
+  color: blue;
+  background-color: #c5d2ef;
+}
+
+button.navBtn02 {
+  border-radius: 30px ;
+  font-weight: bold;
+  background-color: #003ECB;
+  color:white;
+}
+
+button.navBtn02:hover{
+  background-color: #143e9f !important;
+
+}
+
+
+.sec01Div01{
+  
+  border: 1px solid rgb(243, 240, 240);
+  border-radius: 30px ;
+  width: 60%;
+  background-color:#F9F9F9;
+  font-weight: bold;
+  /* border: none; */
+
+
+
+}
+
+
+
+@media (max-width: 768px) {
+  .sec01Div01 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .sec01Div01 {
+    width: 100%;
+    
+  }
+}
+
+
+.sec01Div02 {
+  width: 90%;
+  background-color: #F9F9F9;
+  font-weight: bold;
+  border: none; 
+  outline: none; 
+}
+
+
+.sec01Div02:active {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+
+.glass{
+  border: 1px solid rgb(209, 197, 197);
+  border-top-left-radius: 30px ;
+  border-bottom-left-radius: 30px ;
+  border: none;
+
+}
+
+.searchBtn{
+  border: 1px solid rgb(209, 197, 197);
+  border-radius: 30px ;
+  /* border-bottom-right-radius: 30px ; */
+  background-color:#FFFFFF;
+width: 25%;
+margin: 5px;
+
+}
+
+@media (min-width: 768px) {
+  .searchBtn {
+    width: 60%;
+
+  }
+}
+
+.nav-2{
+  background-color: #F9F9F9;
+  width: 100%;
+  border-radius: 30px ;
+
+}
+
+@media (max-width: 768px) {
+  .sec01Div02 {
+    border-top-right-radius: 30px ;
+    border-bottom-right-radius: 30px ;
+    width: 100%;
+    
+  }
+}
+
+
+.nav2Drop {
+  border-radius: 30px;
+  background-color: #f8f9fa; 
+  
+}
+
+
+@media (max-width: 768px) {
+  .nav2Drop {
+    display: none;
+  }
+}
+
+
+/* **** Section 02 **** */
+
+
+.sec02Div01 {
+  background-image: url('./sec02Img01.jpg'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.sec02Div02 {
+  background-image: url('./sec02Img02.jpg'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+
+}
+
+.sec02Div03 {
+  background-image: url('./sec02Img03.png'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+
+}
+
+.sec02Div04 {
+  background-image: url('./sec02Img04.jpg'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+
+}
+
+.sec02Div05 {
+  background-image: url('./sec02Img05.jpg'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+
+}
+
+.sec02Div06 {
+  background-image: url('./sec02Img06.jpg'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+
+}
+
+.sec02Div07 {
+  background-image: url('./sec02Img07.jpg'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+
+}
+
+.sec02Div08 {
+  background-image: url('./sec02Img08.png'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+
+}
+
+
+.sec02Div09 {
+  background-image: url('./sec02Img9.jpg'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+
+}
+
+
+
+
+
+.sec02Div10 {
+  background-image: url('./sec02Img10.png') !important; /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px; /* Apply rounded corners */
+}
+
+
+.sec02Div11 {
+  background-image: url('./sec02Img11.png'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+
+}
+
+.sec02Div12 {
+  background-image: url('./sec02Img12.jpg'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+
+}
+
+
+.sec02Div13 {
+  background-image: url('./sec02Img13.jpg'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+
+}
+
+
+
+.sec02Div14 {
+  background-image: url('./sec02Img14.jpg'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+
+}
+
+
+
+.sec02Div15 {
+  background-image: url('./sec02Img15.jpg'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+
+}
+
+
+
+.sec02Div16 {
+  background-image: url('./sec02Img16.jpg'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+
+}
+
+
+.sec02Div17 {
+  background-image: url('./100img.webp'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+.sec02Div18 {
+  background-image: url('./101img.png'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+
+
+}
+
+
+.sec02Div19 {
+  background-image: url('./102img.webp'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+
+
+}
+
+
+
+.sec02Div20 {
+  background-image: url('./103img.png'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+
+
+}
+
+
+
+.sec02Div21 {
+  background-image: url('./104img.jpg'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+
+
+}
+
+
+.sec02Div22 {
+  background-image: url('./105img.jpg'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+
+
+}
+
+
+.sec02Div23 {
+  background-image: url('./106img.jpg'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+
+
+}
+
+
+.sec02Div24 {
+  background-image: url('./107img.png'); /* Set image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+
+
+}
+
+
+
+
+
+
+.sec02Links1{
+  text-decoration: none;
+  color: black;
+}
+
+.sec02Links2{
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+
+.sec02Links1:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+
+.sec02Links2:hover{
+  text-decoration: underline;
+  color: black;
+
+}
+
+.likeIcon{
+  color: gray;
+}
+
+.eyeIcon{
+  color: gray;
+
+}
+
+
+/*** section 03** */
+
+.sec03{
+  margin-top: 100px;
+  padding-bottom: 50px;
+
+}
+
+.sec03Btn{
+ border-radius: 30px  !important;
+  font-weight: bold !important;
+}
+
+.sec03Icon01, .sec03Icon03 {
+  color: black !important;
+}
+
+
+
+@media (max-width: 322px) {
+  .sec03Btn {
+    width: 150px !important;
+    font-size: 12px !important;
+  }
+}
+
+
+.sec03Link{
+  text-decoration: none;
+}
+
+
+
+.footerText{
+
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+
+/* @media(max-width:426px){
+  .footerRow{
+    justify-content: center !important;
+  }
+} */
+
+/* @media (max-width: 426px) {
+  .footerRow {
+    display: flex !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+  }
+} */
+
+
+@media (max-width: 426px) {
+  .footerRow {
+    display: flex !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    text-align: center;
+  }
+}
+
+
+
+
+
+.sec04ul a{
+  text-decoration: none;
+  color: white;
+  line-height: 35px;
+  
+}
+
+.sec04ul a:hover{
+  color:white;
+  text-decoration: underline;
+}
+
+

@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Behance website clone</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <div class="container-fluid">
+            <img src="./Behance-Logo.png" alt="logo" id="logo">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Explore
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-primary" href="#">Search & Explore</a></li>
+                            <li><a class="dropdown-item" href="#">Assets</a></li>
+                            <li><a class="dropdown-item" href="#">Curated Galleries</a></li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Jobs </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Behance <i
+                                class="fa-brands fa-r-project text-primary"></i></a>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Hiring Freelancers
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+
+                </ul>
+
+            </div>
+
+
+
+            <form class="d-flex nav01LastPart">
+                <i class="fa-regular fa-bell fs-4 pt-2 me-2"></i>
+
+
+                <button class="btn  m-auto me-2 px-4 navBtn01" type="submit">log in</button>
+                <button class="btn btn-outline-success m-auto px-4 navBtn02 " type="submit">sign up</button>
+
+
+
+
+                <img src="./nav-logo02.png" alt="logo" id="nav-logo02">
+                <h5 class="pt-2 fw-bold">Adobe</h5>
+            </form>
+
+        </div>
+
+    </nav>
+
+    <section class="sec01 my-2 border-bottom mt-4 ">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-2 col-md-2">
+
+                    <button class="p-2 sec01Div01 "><i class="fa-solid fa-arrow-up-a-z fs-4"></i> Filter</button>
+
+
+                </div>
+
+                <div class="col-lg-8 col-md-8">
+                    <div class="d-flex nav-2">
+                        <i class="fa-solid fa-magnifying-glass p-3 glass"></i><input class="sec01Div02 p-2" type="text"
+                            placeholder="Search creative World at work">
+                        <button class=" searchBtn fw-bold"> <i class="fa-regular fa-image ms-1"></i> Search by
+                            Image</button>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-2  col-md-2">
+                    <ul class="list-unstyled nav2Drop p-2 ">
+                        <li class=" dropdown ">
+                            <a class="nav-link dropdown-toggle fw-bold bg-light text-dark" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Recommendend
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec02">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div01 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div02 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div03 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div04 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div05 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div06 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div07 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div08 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div09 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div10  my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div11 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div12 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div13 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div14 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div15 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div16 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                  <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div17 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                  <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div18 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                  <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div19 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                  <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div20 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                  <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div21 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                  <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div22 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                  <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div23 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                  <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                    <div class="sec02Div24 my-2"></div>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div><a href="#" class="sec02Links1 fw-bold">Lisbeth</a></div>
+                                <div><a href="#" class="sec02Links2">Arithmetic - ESt 2004</a></div>
+                            </div>
+
+
+                            <div><i class="fa-solid fa-thumbs-up me-1 likeIcon"></i>80 &nbsp;&nbsp; <i
+                                    class="fa-regular fa-eye me-1 eyeIcon"></i>780</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="sec03 ">
+
+        <div class="container-fluid border-bottom pb-5">
+
+            <div class="text-center fw-bold">
+                <p><a href="#" class="text-dark">Sign up</a> or <a href="#" class="text-dark">Sign in</a> your account
+                    to view more work personalized to your preferences. </p>
+            </div>
+
+
+            <div class="text-center"><button type="button" class="btn btn-primary btn-md sec03Btn">Sign Up With
+                    Email</button> or
+                <a href="#"><i class="fa-brands fa-apple fs-3 ms-2 sec03Icon01"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook fs-3 mx-3 sec03Icon02 "></i></a>
+                <a href="#"><i class="fa-brands fa-google fs-3 sec03Icon03"></i></a>
+
+
+            </div>
+        </div>
+
+        <p class="fw-bold text-center pt-2">Upgrade to Behance Pro today: Get advanced analytics, a custom portfolio
+            website, and more features to grow your creative career.
+
+            <a href="#" class="sec03Link"> Start your 7 days free trial</a>
+        </p>
+
+    </section>
+
+
+
+
+
+    <section class="sec04">
+        <div class="container-fluid bg-dark text-light">
+
+            <div class="row pt-5 ps-4 pb-5 border-bottom footerRow mx-0 px-0">
+                <h1 class=" col-12">Behance</h1>
+
+                <div class="col-lg-4 ">
+
+
+                </div>
+
+                <div class="col-lg-2 col-md-6 col-sm-12 col-12 ">
+                    <ul class="list-unstyled text-light sec04ul">
+                        <li>
+                            <p class="footerText mb-4">Built For Creatives</p>
+                        </li>
+                        <li><a href="#">Try Behance Pro</a></li>
+                        <li><a href="#">Find Inspiration</a></li>
+                        <li><a href="#">Get Hired</a></li>
+                        <li><a href="#">Sell creative Assets</a></li>
+                        <li><a href="#">Sell Freelancers Services</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-lg-2 col-md-6 col-sm-12 col-12 ">
+                    <ul class="list-unstyled text-light sec04ul">
+                        <li>
+                            <p class="footerText mb-4">Find Talent</p>
+                        </li>
+                        <li><a href="#">Post a Job</a></li>
+                        <li><a href="#">Grapic Designers</a></li>
+                        <li><a href="#">Photo Graphers</a></li>
+                        <li><a href="#">video Editors</a></li>
+                        <li><a href="#">Web Designers</a></li>
+                        <li><a href="#">Illustrators</a></li>
+
+
+                    </ul>
+
+                </div>
+
+                <div class="col-lg-2 col-md-6 col-sm-12 col-12 ">
+                    <ul class="list-unstyled text-light sec04ul">
+                        <li>
+                            <p class="footerText mb-3">Behance</p>
+                        </li>
+                        <li><a href="#">About Behance</a></li>
+                        <li><a href="#">Adobe Portfolio</a></li>
+                        <li><a href="#">Download the App</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contant Us</a></li>
+
+
+                    </ul>
+
+                </div>
+
+                <div class="col-lg-2 col-md-6 col-sm-12 col-12 ">
+                    <ul class="list-unstyled text-light sec04ul">
+                        <li>
+                            <p class="footerText mb-3">Social</p>
+                        </li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Pinterest</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">linkedln</a></li>
+
+                    </ul>
+
+                </div>
+
+
+            </div>
+            
+
+            
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
